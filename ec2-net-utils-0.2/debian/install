@@ -1,0 +1,5 @@
+src/etc/dhcp/dhclient-exit-hooks.d/ec2dhcp etc/dhcp/dhclient-exit-hooks.d
+src/etc/network/ec2net-functions etc/network
+src/etc/network/ec2net.hotplug etc/network
+src/etc/udev/rules.d/53-ec2-network-interfaces.rules etc/udev/rules.d
+src/etc/udev/rules.d/54-persistent-net-generator.rules etc/udev/rules.d

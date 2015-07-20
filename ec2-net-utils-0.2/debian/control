@@ -1,0 +1,13 @@
+Source: ec2-net-utils
+Section: net
+Priority: optional
+Maintainer: Expert360 Dev Team <jsok@expert360.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/expert360/ec2-net-utils
+
+Package: ec2-net-utils
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Port of Amazon Linux ec2-net-utils to Ubuntu
+ Provides udev rules for ENI attachment as well as hotplug functionality.
