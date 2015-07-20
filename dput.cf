@@ -1,0 +1,6 @@
+[expert360]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~expert360/ppa/ubuntu/
+login = expert360
+allow_unsigned_uploads = 0
